@@ -19,6 +19,7 @@ This is a production-ready, security-first deployment for a complete IoT infrast
 * **Rootless Execution:** Services run under `UID 1000` with optimized `cap_add` permissions, avoiding the risks of `privileged: true`.
 * **Mandatory MQTT Auth:** Mosquitto is pre-configured to reject anonymous connections.
 
+* No Domain or Port Forwarding Required, Tailscale handles all encryption and routing. Access your dashboard directly via its Tailscale IP, even if you don't own a domain :) *
 -----
 
 ## 🛠 Prerequisites
